@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Take Survey and Give Survey</h1><br>
+            <a href="" class="main-buttons">Create Survey/Poll</a><br><br>
+            <a href="surveys/coding_ninjas.html" class="main-buttons">Give Survey/Poll</a>
+        </div>
+    </header>
+    <footer>
+        <div class="about">
+            <h4>Connect With Us</h4>
+            <p>We are a team of three students, whose names are Tarandeep Singh, Tanisha, Tanish Rajput and are stuying in Chitkara University. Our project is to make a survey and polling application using html and css. We are from Group - 25 B, team - 17 and we are also very bright students who are giving their best to do this project. </p>
+            <p>We are a team of three students, whose names are Tarandeep Singh, Tanisha, Tanish Rajput and are stuying in Chitkara University. Our project is to make a survey and polling application using html and css. We are from Group - 25 B, team - 17. Now we are promoted to second semester.</p>
+            <div class="icons">
+                <a href="https://www.facebook.com" target="main">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="main">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="main">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="main">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            <p>&#169 2023-2023 LOGO INDIA</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    <!-----------JavaScript for Phone Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

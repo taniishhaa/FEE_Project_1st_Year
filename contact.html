@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1><br>
+        </div>
+    </section>
+    <!-- -----contact us content---- -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27497.401241433945!2d76.64539930122064!3d30.51608590993588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1696944735393!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <img src="images/contact-us.jpg" alt="">
+            </div>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>ABC Road, XYZ Building</h5>
+                        <p>Rajpura, Punjab, INDIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9988492837</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>logo1029@hotmail.com</h5>
+                        <p>Email Us for queries</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="about">
+            <h4>Connect With Us</h4>
+            <p>We are a team of three students, whose names are Tarandeep Singh, Tanisha, Tanish Rajput and are stuying in Chitkara University. Our project is to make a survey and polling application using html and css. We are from Group - 25 B, team - 17. </p>
+            <div class="icons">
+                <a href="https://www.facebook.com" target="main">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="main">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" target="main">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="main">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            <p>&#169 2023-2023 LOGO INDIA</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------JavaScript for Phone Menu-------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

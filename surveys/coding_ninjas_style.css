@@ -4,7 +4,7 @@
 }
 body {
     color: white;
-    background-image: url(../images/coding_ninjas_background.avif);
+    background-image: url("../images/coding-ninajs-background.webp");
     background-size: cover;
     background-attachment: fixed;
 }
